@@ -1,12 +1,11 @@
-
-function sortList() {    /* sort the list with id pastCourses */
-    const list = document.getElementById('pastCourses');
-    const items = Array.from(list.children);
-
-    /* shuffle the list items randomly */
-    items.sort(() => Math.random() - 0.5);
-
-     /* Update list with shuffled items */
-     list.innerHTML = '';
-     items.forEach(item => list.appendChild(item));
-}
+function sortList() {
+    const list = document.getElementById("interest-list");
+    const items = Array.from(list.getElementsByTagName("li"));
+    const sortedItems = items.sort((a, b) =>
+      a.textContent.localeCompare(b.textContent)
+    );
+  
+    list.innerHTML = "";
+    sortedItems.forEach((item) => list.appendChild(item));
+  }
+  
