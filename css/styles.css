@@ -67,3 +67,16 @@ body {
     margin-top: 2rem;
   }
   
+  nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.5em;
+    display: inline-block;
+  }
+  
+  nav a:focus {
+    outline: 3px solid #ffeb3b;
+    background-color: #4b3f8c;
+  }  

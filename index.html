@@ -9,13 +9,14 @@
 </head>
 <body>
   <nav>
-    <h1>Omar's World 🌍</h1>
+    <a href="index.html" tabindex="1">Home</a>
+    <a href="read.html" tabindex="2">Things to Read</a>
   </nav>
 
   <section class="intro">
     <div class="bio">
       <h2>Hey, I’m Omar 👋</h2>
-      <p>I’m a CSSE student at UW Bothell. I like coding, the gym and figuring out how tech can change the world.</p>
+      <p>I’m a CSSE student at UW Bothell. I like coding, the gym, and figuring out how tech can change the world.</p>
     </div>
   </section>
 
@@ -27,11 +28,17 @@
       <li>Coding</li>
       <li>Web Development</li>
     </ul>
-    <button onclick="sortList()">Reorder the List 🔁</button>
+    <button onclick="sortList()" tabindex="3">Reorder the List 🔁</button>
   </section>
 
   <footer>
     <p>Made with 💻 by Omar</p>
   </footer>
+
+  <section class="keyboard-instructions">
+    <h2>Keyboard Access Instructions</h2>
+    <p>Use <strong>Tab</strong> to move between links and buttons. Press <strong>Enter</strong> to activate them.</p>
+    <p>This site focuses on making the navigation bar, list button, and external reading links fully accessible by keyboard.</p>
+  </section>
 </body>
 </html>
