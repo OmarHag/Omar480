@@ -83,3 +83,67 @@ footer {
   margin-right: auto;
   border-radius: 6px;
 }
+
+/* === Focus Page Styling === */
+
+.focus-layout {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: auto;
+  text-align: left;
+}
+
+.hero {
+  text-align: center;
+  background-color: #003366;
+  color: white;
+  padding: 2rem;
+  border-radius: 8px;
+}
+
+.hero img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.spotlight, .rhythm {
+  margin-top: 2rem;
+}
+
+.side-by-side {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-by-side img {
+  flex: 1;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.side-by-side p {
+  flex: 2;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.callout {
+  margin-top: 3rem;
+  padding: 2rem;
+  background-color: #f0f0f0;
+  border-left: 5px solid #00796B;
+  font-size: 1.2rem;
+  font-style: italic;
+  text-align: center;
+  border-radius: 6px;
+}
